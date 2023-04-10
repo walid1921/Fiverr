@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,11 +22,21 @@ const Header = () => {
 
           <div className="popular">
             <span>Popular:</span>
+            <Link to='/gigs'>
+              <button>Web Design</button>
+            </Link>
 
-            <button>Website Design</button>
-            <button>WordPress</button>
-            <button>Logo Design</button>
-            <button>AI Services</button>
+            <Link to='/gigs'>
+              <button>Wordpress</button>
+            </Link>
+
+            <Link to='/gigs'>
+              <button>Logo Design</button>
+            </Link>
+
+            <Link to='/gigs'>
+              <button>AI Services</button>
+            </Link>
           </div>
         </div>
         <div className="right">

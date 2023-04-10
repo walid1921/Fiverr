@@ -1,0 +1,68 @@
+.add {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 1400px;
+    padding: 50px 0px;
+
+    h1 {
+      width: max-content;
+      margin-bottom: 30px;
+      color: gray;
+      font-weight: 300;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+
+      label {
+        color: rgb(50, 50, 50);
+        font-size: 18px;
+
+        
+      }
+
+      .info,
+      .details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+
+        input,
+        select,
+        textarea {
+          padding: 20px;
+          resize: none;
+
+          border: 1px solid lightgray;
+
+          &.border{
+            border: none;
+            padding: 0 0 0 20px;
+          }
+        }
+
+        button {
+          color: #fff;
+          background-color: #1dbf73;
+          font-weight: 500;
+          font-size: 15px;
+          padding: 10px;
+          border-radius: 5px;
+          border: none;
+          transition: all 0.2s linear;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #18985c;
+          }
+        }
+      }
+    }
+  }
+}
