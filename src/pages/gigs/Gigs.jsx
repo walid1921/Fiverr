@@ -32,7 +32,7 @@ const Gigs = () => {
             <span className="sortType">
               {sort === "sales" ? "Best Selling" : "Newest"}
             </span>
-            <img src="/public/img/down.png" alt="" />
+            <img src="/src/img/down.png" alt="" />
             {open && (
               <div className="rightMenu">
                 {sort === "sales" ? (

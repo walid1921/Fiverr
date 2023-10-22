@@ -10,7 +10,7 @@ const Video = () => {
           <div className="content">
             <div className="content_title">
               <div className="title">
-                <img src="/public/img/check.png" alt="" />
+                <img src="/src/img/check.png" alt="" />
                 <h3>The best for every budget</h3>
               </div>
 
@@ -21,7 +21,7 @@ const Video = () => {
             </div>
             <div className="content_title">
               <div className="title">
-                <img src="/public/img/check.png" alt="" />
+                <img src="/src/img/check.png" alt="" />
                 <h3 className="title">Quality work done quickly</h3>
               </div>
 
@@ -32,7 +32,7 @@ const Video = () => {
             </div>
             <div className="content_title">
               <div className="title">
-                <img src="/public/img/check.png" alt="" />
+                <img src="/src/img/check.png" alt="" />
                 <h3 className="title">Protected payments, every time</h3>
               </div>
 
@@ -43,7 +43,7 @@ const Video = () => {
             </div>
             <div className="content_title">
               <div className="title">
-                <img src="/public/img/check.png" alt="" />
+                <img src="/src/img/check.png" alt="" />
                 <h3 className="title">24/7 support</h3>
               </div>
 
@@ -56,7 +56,7 @@ const Video = () => {
         </div>
         <div className="right">
           <video
-            src="/public/img/video.mp4"
+            src="/src/img/video.mp4"
             controls
             poster="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_700,dpr_1.0/v1/attachments/generic_asset/asset/089e3bb9352f90802ad07ad9f6a4a450-1599517407052/selling-proposition-still-1400-x1.png"
           ></video>

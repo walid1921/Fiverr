@@ -7,7 +7,7 @@ const Gig = () => {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">Fiverr > Graphics & Design ></span>
+          <span className="breadcrumbs">Fiverr . Graphics & Design .</span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
@@ -19,20 +19,20 @@ const Gig = () => {
             <span>Level 1 Seller</span>
             <span>I</span>
             <div className="stars">
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
+              <img src="/src/img/star.png" alt="" />
+              <img src="/src/img/star.png" alt="" />
+              <img src="/src/img/star.png" alt="" />
+              <img src="/src/img/star.png" alt="" />
+              <img src="/src/img/star.png" alt="" />
               <span>5</span>
             </div>
             <span>(61)</span>
             <span>Orders in Queue</span>
           </div>
           <Slider slidesToShow={1} arrowsScroll={1} className="slider">
-            <img src="/public/img/ai1.webp" alt="" />
-            <img src="/public/img/ai2.webp" alt="" />
-            <img src="/public/img/ai3.webp" alt="" />
+            <img src="/src/img/ai1.webp" alt="" />
+            <img src="/src/img/ai2.webp" alt="" />
+            <img src="/src/img/ai3.webp" alt="" />
           </Slider>
           <h2>About This Gig</h2>
           <p>
@@ -60,11 +60,11 @@ const Gig = () => {
               <div className="info">
                 <span>Anna Bell</span>
                 <div className="stars">
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
+                  <img src="/src/img/star.png" alt="" />
+                  <img src="/src/img/star.png" alt="" />
+                  <img src="/src/img/star.png" alt="" />
+                  <img src="/src/img/star.png" alt="" />
+                  <img src="/src/img/star.png" alt="" />
                   <span>5</span>
                 </div>
                 <button>Contact Me</button>
@@ -123,11 +123,11 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
                 <span>5</span>
               </div>
               <p>
@@ -140,9 +140,9 @@ const Gig = () => {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <img src="/img/like.png" alt="" />
+                <img src="/src/img/like.png" alt="" />
                 <span>Yes</span>
-                <img src="/img/dislike.png" alt="" />
+                <img src="/src/img/dislike.png" alt="" />
                 <span>No</span>
               </div>
             </div>
@@ -166,11 +166,11 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
                 <span>5</span>
               </div>
               <p>
@@ -181,9 +181,9 @@ const Gig = () => {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <img src="/img/like.png" alt="" />
+                <img src="/src/img/like.png" alt="" />
                 <span>Yes</span>
-                <img src="/img/dislike.png" alt="" />
+                <img src="/src/img/dislike.png" alt="" />
                 <span>No</span>
               </div>
             </div>
@@ -207,11 +207,11 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
+                <img src="/src/img/star.png" alt="" />
                 <span>5</span>
               </div>
               <p>
@@ -223,9 +223,9 @@ const Gig = () => {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <img src="/img/like.png" alt="" />
+                <img src="/src/img/like.png" alt="" />
                 <span>Yes</span>
-                <img src="/img/dislike.png" alt="" />
+                <img src="/src/img/dislike.png" alt="" />
                 <span>No</span>
               </div>
             </div>
@@ -242,29 +242,29 @@ const Gig = () => {
           </p>
           <div className="details">
             <div className="item">
-              <img src="/img/clock.png" alt="" />
+              <img src="/src/img/clock.png" alt="" />
               <span>2 Days Delivery</span>
             </div>
             <div className="item">
-              <img src="/img/recycle.png" alt="" />
+              <img src="/src/img/recycle.png" alt="" />
               <span>3 Revisions</span>
             </div>
           </div>
           <div className="features">
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/src/img/greencheck.png" alt="" />
               <span>Prompt writing</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/src/img/greencheck.png" alt="" />
               <span>Artwork delivery</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/src/img/greencheck.png" alt="" />
               <span>Image upscaling</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src="/src/img/greencheck.png" alt="" />
               <span>Additional design</span>
             </div>
           </div>

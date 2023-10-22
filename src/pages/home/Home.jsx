@@ -24,7 +24,7 @@ const Home = () => {
             <h1>A whole world of freelance talent at your fingertips</h1>
 
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               The best for every budget
             </div>
             <p>
@@ -33,7 +33,7 @@ const Home = () => {
             </p>
 
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               Quality work done quickly
             </div>
             <p>
@@ -41,7 +41,7 @@ const Home = () => {
               minutes.
             </p>
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               Protected payments, every time
             </div>
             <p>
@@ -49,7 +49,7 @@ const Home = () => {
               until you approve the work.
             </p>
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               24/7 support
             </div>
             <p>
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
           <div className="item-right">
             <video
-              src="/public/img/video.mp4"
+              src="/src/img/video.mp4"
               controls
               poster="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_700,dpr_1.0/v1/attachments/generic_asset/asset/089e3bb9352f90802ad07ad9f6a4a450-1599517407052/selling-proposition-still-1400-x1.png"
             ></video>
@@ -163,17 +163,17 @@ const Home = () => {
             </p>
 
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               Connect to freelancers with proven business experience
             </div>
 
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               Get matched with the perfect talent by a customer success manager
             </div>
 
             <div className="title">
-              <img src="/public/img/check.png" alt="" />
+              <img src="/src/img/check.png" alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
 

@@ -3,7 +3,7 @@ export const cards = [
     id: 1,
     title: "AI Artists",
     description: "Add talent to AI",
-    img: "../public/img/ai-artists-2x.webp",
+    img: "../src/img/ai-artists-2x.webp",
   },
   {
     id: 2,

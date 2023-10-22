@@ -14,12 +14,12 @@ const GigCard = ({ item }) => {
           </div>
           <p>{item.desc}</p>
           <div className="star">
-            <img src="/public/img/star.png" alt="" />
+            <img src="/src/img/star.png" alt="" />
             <span>{item.star}</span>
           </div>
         </div>
         <div className="details">
-          <img src="/public/img/heart.png" alt="" />
+          <img src="/src/img/heart.png" alt="" />
           <div className="price">
             <span>STARTING AT</span>
             <h2>${item.price}</h2>

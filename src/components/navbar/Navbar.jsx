@@ -71,7 +71,7 @@ const Navbar = () => {
 
             {currentUser && (
               <div className="user" onClick={() => setOpen(!open)} ref={mouse}>
-                <img src="/public/img/walid.jpg" alt="" />
+                <img src="/src/img/walid.jpg" alt="" />
                 <span>{currentUser?.username}</span>
 
                 {open && (
